@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "CI": "npm run build"
+    "build": "CI= react-scripts build",
+    "start": "next start"
   },
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
